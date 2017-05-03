@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/turcios/Documentos/Algoritmos/OpenGL/3D/Parcial#2/main.cpp
+stdio.h
+-
+GL/gl.h
+-
+GL/glut.h
+-
+
