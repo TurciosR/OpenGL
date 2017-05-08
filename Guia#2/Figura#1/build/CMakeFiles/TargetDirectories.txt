@@ -1,0 +1,1 @@
+/home/turcios/Documentos/Algoritmos/OpenGL/3D/Guia#2/Figura#1/build/CMakeFiles/hello.dir
