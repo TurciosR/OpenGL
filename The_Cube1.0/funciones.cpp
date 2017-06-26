@@ -191,8 +191,8 @@ void arbol(void)
   glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
   glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
   //Arbol#1
-  float a=700.0;
-  for (int i=-10; i<200; i++)
+  float a=1000;
+  for (int i=-10; i<2000; i++)
   {
     if(a>-500)
     {
@@ -215,7 +215,7 @@ void arbol(void)
       glTexCoord2f(0,0);glVertex3f( 5.2f, 0.0f, a );
     glEnd();
   }
-  if(a>-500)
+  if(a>500)
   {
     glBindTexture(GL_TEXTURE_2D, texture[0]);
     glBegin(GL_TRIANGLES);
